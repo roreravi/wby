@@ -1,6 +1,6 @@
 import psycopg2
 import sys
-import boto3
+#import boto3
 import os
 
 # importante!! pasar datos de acceso a un modulo a parte en un gitignore
