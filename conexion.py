@@ -19,7 +19,7 @@ DBNAME="pickle_rick"
 #token = client.generate_db_auth_token(DBHostname=ENDPOINT, Port=PORT, DBUsername=USER, Region=REGION, password=PASSWORD)
 
 
-
+#prueba de conección, salio OK!
 try:
     conn = psycopg2.connect(host=ENDPOINT, port=PORT, database=DBNAME, user=USER, password=PASSWORD, sslrootcert="SSLCERTIFICATE")
     cur = conn.cursor()
