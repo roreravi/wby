@@ -18,6 +18,8 @@ DBNAME="pickle_rick"
 
 #token = client.generate_db_auth_token(DBHostname=ENDPOINT, Port=PORT, DBUsername=USER, Region=REGION, password=PASSWORD)
 
+
+
 try:
     conn = psycopg2.connect(host=ENDPOINT, port=PORT, database=DBNAME, user=USER, password=PASSWORD, sslrootcert="SSLCERTIFICATE")
     cur = conn.cursor()
@@ -26,3 +28,9 @@ try:
     print(query_results)
 except Exception as e:
     print("Database connection failed due to {}".format(e)) 
+
+#función para conectar, hacer la query y desconectar
+def execute_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        cursor.close()
