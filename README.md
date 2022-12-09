@@ -11,3 +11,6 @@ módulos:
 - conexion.py: modulo con conexión a la BD (psycopg2)
 - tablas.py: modulo con tablas de hechos y dimensiones (pandas) para ingestar a la BD
 - ingesta.py: modulo para ingesta a la DB de las tablas realizadas en tablas.py (pandas.to_sql) . importar los modulos
+
+links:
+- excel compartido de análisis: https://docs.google.com/spreadsheets/d/1niVlNzs8LKRxE6mVss1BGcV4cAAb8tbn2Lxl3piaqsk/edit?usp=sharing
