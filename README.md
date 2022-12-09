@@ -14,3 +14,4 @@ módulos:
 
 links:
 - excel compartido de análisis: https://docs.google.com/spreadsheets/d/1niVlNzs8LKRxE6mVss1BGcV4cAAb8tbn2Lxl3piaqsk/edit?usp=sharing
+- armado de tablas y visualización: https://lucid.app/lucidchart/fc84d66d-6ab6-4a1e-b642-56aec4653277/edit?view_items=0kbcktc7B9Q9&invitationId=inv_31687623-6f49-4400-a322-db6f1e32b2d1
